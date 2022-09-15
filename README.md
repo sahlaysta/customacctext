@@ -5,7 +5,7 @@ A library with a fairly hacky solution to set custom accelerator text to JMenuIt
 
 # Usage
 
-Use the `CustomAcceleratorText.setCustomAcceleratorText(JMenuItem, String)` method to give custom accelerator text to a JMenuItem. If the JMenuItem already has an accelerator, the custom text will replace it.
+Use the `CustomAcceleratorText.setCustomAcceleratorText(JMenuItem, String)` method to give custom accelerator text to a JMenuItem. (If the JMenuItem already has an accelerator, the custom text will replace it. The keyboard shortcut will still function normally.)
 
 ```java
 JMenuBar jMenuBar = new JMenuBar();
